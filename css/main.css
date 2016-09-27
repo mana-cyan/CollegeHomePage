@@ -1,0 +1,49 @@
+ul.nav {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+	overflow: hidden;
+	zoom: 1;
+}
+
+ul.nav li {
+	float: left;
+}
+
+#first-nav {
+	margin-left: 10%;
+	border-left: 1px solid grey;
+}
+
+ul.nav a{
+	width: 6em;
+	height: 100%;
+	border-right: 1px solid grey;
+	border-bottom: none;
+	padding: 5px;
+	color: #DDD;
+	background-color: black;
+	font-size: 2em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+ul.nav li a:hover {
+	background-color: #333;
+}
+
+#search {
+	margin-left: 20%;
+}
+
+.logo {
+	background-color: #106470;
+	text-align: center;
+}
